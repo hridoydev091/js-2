@@ -38,3 +38,24 @@ ab +=4;// a= a +4
 console.log("ab = ", ab);//9
 
 // jog bioyog gun vag persentse sob ei niom ye kora jai
+
+
+
+
+// ------------Comparison Operator
+/*
+> -------------65 > 65----false
+
+>--------------25 > 25------false
+
+>=------------86 >= 86-----true
+
+<=-----------25 <= 25-----true
+
+==----------- 5== 0 ----false
+
+!=------------ 25 != 25-----true
+ */
+console.log(65 > 65);
+
+
