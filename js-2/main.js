@@ -76,12 +76,106 @@
 // console.log(c);
 
 
-let a = 10;
-let b = 8;
-let c = !(a<b);
-console.log(c);// ! not er khetre sotto hole mittha hobe ,r mittha hole sotto hobe, 
+// let a = 10;
+// let b = 8;
+// let c = !(a<b);
+// console.log(c);// ! not er khetre sotto hole mittha hobe ,r mittha hole sotto hobe, 
+
+
+//------------- conditional statement----------
+// let myName = "Raj";
+// if (myName == "Raj") {
+//     console.log("Hello JavaScipt");// jodi my name Raj true hooi,tahole javascript lekhata asbe.
+// } 
+
+// let a;
+// if (a="hello") {
+//     console.log("Hello javascript");
+// }
+
+
+// let myname = prompt ("Enter your name")// prommpt diye input hoi banai
+
+// if (myname == "something") {
+//     console.log("Your Name is" + myname);
+// }
 
 
 
- 
+// let age = 28;
+// if (age> 18) {
+//     console.log("you cannot vote");
+// }
+
+
+// let age1 = 16;
+// if (age1 >= 18) {
+//     console.log("You can vote");
+// } else {
+//     console.log("You cannot vote");
+// }
+
+
+// if else er bebohar shikbo ekhon
+// let amount = 21;
+// if (amount > 10) {
+//     console.log("Hello");
+// } else {
+//     console.log("Baye");//false hole els asbe ,r ture hole if asbe
+// }
+
+
+// else if er bebohar shikbo ekhon
+// let amount = 21;
+
+// if (amount == 10) {
+//     console.log("10");  
+// } else if (amount == 20) {
+//   console.log("20");
+// } else{
+//     console.log("something");// sob gula jhokn false hobe thokn eita run korbe
+// }
+
+
+
+//else if er bebohar shikbo ekhon
+let amount = 21;
+
+if (amount == 10) {
+    console.log("10");  
+} else if (amount == 20) {
+  console.log("20");
+} else if (amount == 21) {// ekhon eita true hobe
+console.log("true");
+
+}
+ else{
+    console.log("something");// sob gula jhokn false hobe thokn eita run korbe
+}
+
+
+
+
+let monthName = prompt ("Enter month name")
+if ( monthName == "jan") {
+    console.log("january");
+}
+else if (monthName == "feb") {
+    console.log("february");
+} else if (monthName == "mar") {
+    console.log("march");
+} else {
+    console.log("invalid month.name");
+}
+
+
+let amount1 = prompt("Enter amount")
+if (amount1 > 100) {
+    console.log("Amount is greatr than 100");
+} else if (amount1 < 100) {
+    console.log(" amount is less than too 100");
+} else {
+    console.log("Amount is equel too 100");
+}
+
 
