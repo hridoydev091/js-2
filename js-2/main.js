@@ -138,44 +138,80 @@
 
 
 
-//else if er bebohar shikbo ekhon
-let amount = 21;
+// //else if er bebohar shikbo ekhon
+// let amount = 21;
 
-if (amount == 10) {
-    console.log("10");  
-} else if (amount == 20) {
-  console.log("20");
-} else if (amount == 21) {// ekhon eita true hobe
-console.log("true");
+// if (amount == 10) {
+//     console.log("10");  
+// } else if (amount == 20) {
+//   console.log("20");
+// } else if (amount == 21) {// ekhon eita true hobe
+// console.log("true");
 
-}
- else{
-    console.log("something");// sob gula jhokn false hobe thokn eita run korbe
-}
-
-
+// }
+//  else{
+//     console.log("something");// sob gula jhokn false hobe thokn eita run korbe
+// }
 
 
-let monthName = prompt ("Enter month name")
-if ( monthName == "jan") {
-    console.log("january");
-}
-else if (monthName == "feb") {
-    console.log("february");
-} else if (monthName == "mar") {
-    console.log("march");
-} else {
-    console.log("invalid month.name");
-}
 
 
-let amount1 = prompt("Enter amount")
-if (amount1 > 100) {
-    console.log("Amount is greatr than 100");
-} else if (amount1 < 100) {
-    console.log(" amount is less than too 100");
-} else {
-    console.log("Amount is equel too 100");
-}
+// let monthName = prompt ("Enter month name")
+// if ( monthName == "jan") {
+//     console.log("january");
+// }
+// else if (monthName == "feb") {
+//     console.log("february");
+// } else if (monthName == "mar") {
+//     console.log("march");
+// } else {
+//     console.log("invalid month.name");
+// }
+
+
+// let amount1 = prompt("Enter amount")
+// if (amount1 > 100) {
+//     console.log("Amount is greatr than 100");
+// } else if (amount1 < 100) {
+//     console.log(" amount is less than too 100");
+// } else {
+//     console.log("Amount is equel too 100");
+// }
+
+
+
+// ------------tarnary operator---------
+// let userAcces ;
+// let username = prompt ("Enter Username");
+
+// if (username == "sumon"){
+//     userAcces = "Admin";// jodi username sumon hoi ,tahole asbe admin
+// } else {
+//  userAcces = "Modarator";//  r jodi sumon na hoi ,tahole modarator asbe
+// }
+// console.log("userAcces");
+// let firstName = "Raj";
+// let lastName = "Rajish";
+
+// userAcces = (username == "sumon") ? "Admin": "Modarator";
+// console.log("userAcces");
+
+
+
+let age = 25;
+let result = age >= 18 ?"adult":"not adult";
+console.log(result);
+
+let age1 = 16 ;
+age1 >= 18 ? console.log("adult"):console.log("not adult");// simpler ,compact if-else
+
+alert ("hello");// one time popup
+ let name =prompt ("hello");
+ console.log(name);
+ 
+
+
+
+
 
 
