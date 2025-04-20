@@ -205,13 +205,91 @@ console.log(result);
 let age1 = 16 ;
 age1 >= 18 ? console.log("adult"):console.log("not adult");// simpler ,compact if-else
 
-alert ("hello");// one time popup
- let name =prompt ("hello");
- console.log(name);
+// alert ("hello");// one time popup
+//  let name =prompt ("hello");
+//  console.log(name);
+
+
+ // ------------------String in js--------
+ let massg = 'Hello1 I\' am Hridoy'; // skping kora jai 
+
+ let name1 = 'Raju" rakib';// othoba skping o kora jai
+
+ let price = 45;// eita nmbor type
+ let name2 = "Rajwip hawladar";// eita string type
+ let name3 = 'Rasel sordar';// eita o string type
+ let nameThree = `Test ${price}`;//eita string and veable type
+ let nameFive = `Test ${price} Hello ${2 + 2}`;// eitar result asbe Test 45 Hello 4
+ let name4 = `vactive sine`// eita o string type
+ console.log(nameThree);
+
+
+
+ let userName = "Bikash";
+ let userAge = "35";
+ let massge = `Hello ${userName},your age is ${userAge}`;//  ${} ei niom ye sob gula velu add kora jai
+ console.log(massge);
+ 
+ 
+ //----------- apna colleage string type 
+ let str = "ApnaCollege";
+ console.log(str[8]);// las 8 numobr crretar e asbe
+ 
+ 
+ let obj = {
+    item : "pen",
+    price : 10,
+ };
+
+ let output = ` the cost of ei niom ta easy beshi ${obj.item} is ${obj.price} rupes`;
+ console.log(output);
+ 
+ console.log("the cost of",obj.item,"is",obj.price, "rupes");
+ 
+ let str1 = "Apna\tCollege";// ei khane 12 asbe
+ console.log(str.length);
+
+ // ------slice method------
+ let str2 = "0123456789";
+ console.log(str2.slice(1,6));
+
+ let str3 = "hello";
+ console.log(str3.slice(0,3));
+ console.log(str3.slice());
+
+ //--------concat eita diye string add kora jai
+ let str4 = "Hridoy";
+ let str5 = "khan";
+ let res = str4.concat(str5); // res diye add kora jai
+ console.log(res);
+
+ // ----------------replace valu /R search valu
+ let str6 = "hello";
+ console.log(str6.replace("h","y"));// hello ta ke riplace kore yello banailam
+
+ //---- chareacterAt();
+ let str7 = "I love JS";
+ console.log(str7.charAt(4));// 4 dewar karone ei khane asbe v
+
+let str8 = "preactice";
+console.log(str8.charAt(3));// r ei khane 3 dewar jonno asbe a
+
+let str9 = "h have a done";
+str9 = str9.replace("h","I");
+console.log(str9);// tahole ei khane h er jaigai s hobe
+
+ 
+ //-------------practices
+ let fullName = prompt ("enter your fullname spaces");
+ let username = "@" + fullName + fullName.length;
+ console.log(userName);
+ 
  
 
 
-
+ 
+ 
+ 
 
 
 
